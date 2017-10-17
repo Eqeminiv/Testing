@@ -1,0 +1,7 @@
+w punktach napisac test plan
+1. zaloguj sie na strone [ ... ] i sprawdz czy dziala [regular expression]
+1a) jesli tak, to za pomoca url zaloguj sie
+3. sprawdz jakies strony
+4. wyloguj
+
+mozna sprawdzic gmail
