@@ -1,0 +1,18 @@
+jUnit testy:
+
+asercje: (5)
+ - AssertEqual
+ - AssertTrue
+ - AssertFalse
+ - AssertNull
+ - AssertNotNull
+ 
+annotacje (5):
+ - @BeforeClass
+ - @AfterClass
+ - @After
+ - @Before 
+ - @Test
+ 
+ Zrobić prostą klasę z kilkoma p r o s t y m i  metodami i wykorzystać wszystkie asercje, annotacje
+ przy testach. Zainstalować pluginy, które pokazują test coverage.
