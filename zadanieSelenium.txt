@@ -1,0 +1,2 @@
+seleniumeasy.com/test
+Wybraæ 10 przyk³adów i je przetestowaæ.
