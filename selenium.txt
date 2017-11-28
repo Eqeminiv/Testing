@@ -1,0 +1,48 @@
+1. chrome browser engine -> exe
+2. selenium web drive -> jar (posredniczy miedzy 1 a 3)
+3. java tests
+
+1.
+
+chrome wyrzuca port
+
+2.
+
+selenium wyrzuca port (od 4440 do 4444) < - Selenium wtedy chodzi lokalnie
+ - java -jar ___ (sciezka do testow)
+ - -D ___ (sciezka do cbe)
+ 
+ 
+Java Tests:
+ 1. URL
+ 2. XPATH - parser, który wyciąga Page Objecty, które można przekonwertoać na java objecty
+ 3. Tests
+ 4. SUIT
+ 
+ Java Tests: PAGE OBJECTS & TESTS
+ 
+ Page Objects:
+  - html -> java objects
+  - xpath
+  - actions
+  
+ Tests:
+  - @Test
+  - @Before
+  - @After
+ 
+ 
+ 
+_____________
+
+
+potrzebny jest chromedriver.exe (sciezka ma byc bezz spacji)
+
+cmd:
+java -Dwebdriver.chrome.driver=C:\chromedriver.exe -jar selenium-server-standalone-2.52.0.jar -port 4440
+
+__________________
+
+obczaj sb xpath ziomson
+
+
