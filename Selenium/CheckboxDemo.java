@@ -13,10 +13,7 @@ public class CheckboxDemo {
     public static String driverPath = "C:/chromedriver.exe";
     public WebDriver driver;
     public WebElement element;
-    public String text;
-    public String xP;
-    public int num1;
-    public int num2;
+
 
     @BeforeClass
     public void startUp(){
