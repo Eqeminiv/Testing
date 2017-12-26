@@ -7,6 +7,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.util.concurrent.TimeUnit;
+
 public class CheckboxDemo {
     public static String driverPath = "C:/chromedriver.exe";
     public WebDriver driver;
@@ -44,9 +46,13 @@ public class CheckboxDemo {
         element.click();
         element = driver.findElement(By.xpath("//label[text()='Option 4']"));
         element.click();
-
         element = driver.findElement(By.id("isChkd"));
         Assert.assertTrue(element.getAttribute("value").equals("true"));
+        element = driver.findElement(By.xpath("//label[text()='Option 4']"));
+        element.click();
+        element = driver.findElement(By.id("isChkd"));
+        Assert.assertFalse(element.getAttribute("value").equals("true"));
+
     }
 
 
